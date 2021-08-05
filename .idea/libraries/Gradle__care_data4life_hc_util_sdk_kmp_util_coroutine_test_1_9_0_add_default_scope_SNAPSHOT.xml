@@ -1,9 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: care.data4life.hc-util-sdk-kmp:util-coroutine-test:1.9.0-add-default-scope-SNAPSHOT">
     <CLASSES>
-      <root url="file:///Could not find care.data4life.hc-util-sdk-kmp:util-coroutine-test:1.9.0-add-default-scope-SNAPSHOT.&#10;Required by:&#10;    project :result" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/care.data4life.hc-util-sdk-kmp/util-coroutine-test/1.9.0-add-default-scope-SNAPSHOT/7b726ed67e7c360ce3bb2e620e1bf19155f4a250/util-coroutine-test-1.9.0-add-default-scope-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/care.data4life.hc-util-sdk-kmp/util-coroutine-test/1.9.0-add-default-scope-SNAPSHOT/a37681b7b40132ee739e3291111c22ccdd9edc5e/util-coroutine-test-1.9.0-add-default-scope-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

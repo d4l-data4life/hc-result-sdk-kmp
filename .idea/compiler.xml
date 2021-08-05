@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="11">
+      <module name="hc-result-sdk-kmp.flow.commonMain" target="1.8" />
+      <module name="hc-result-sdk-kmp.flow.commonTest" target="1.8" />
+      <module name="hc-result-sdk-kmp.flow.jvmMain" target="1.8" />
+      <module name="hc-result-sdk-kmp.flow.jvmTest" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

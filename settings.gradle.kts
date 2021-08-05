@@ -27,6 +27,7 @@ plugins {
 rootProject.name = "hc-result-sdk-kmp"
 
 include(
+    ":flow"
 )
 
 buildCache {
