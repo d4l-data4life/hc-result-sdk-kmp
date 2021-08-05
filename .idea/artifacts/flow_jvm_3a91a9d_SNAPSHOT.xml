@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="flow-jvm-3a91a9d-SNAPSHOT">
-    <output-path>$PROJECT_DIR$/flow/build/libs</output-path>
-    <root id="archive" name="flow-jvm-3a91a9d-SNAPSHOT.jar">
-      <element id="module-output" name="hc-util-sdk-kmp.flow.jvmMain" />
-    </root>
-  </artifact>
-</component>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="result-jvm-569d1ee-SNAPSHOT">
-    <output-path>$PROJECT_DIR$/result/build/libs</output-path>
-    <root id="archive" name="result-jvm-569d1ee-SNAPSHOT.jar">
-      <element id="module-output" name="hc-util-sdk-kmp.result.jvmMain" />
-    </root>
-  </artifact>
-</component>
