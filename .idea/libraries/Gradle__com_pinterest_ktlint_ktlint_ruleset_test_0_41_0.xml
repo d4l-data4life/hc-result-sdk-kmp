@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pinterest.ktlint:ktlint-ruleset-test:0.41.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-ruleset-test/0.41.0/17c9f71870d6932785a163c786ad020f219f2241/ktlint-ruleset-test-0.41.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pinterest.ktlint/ktlint-ruleset-test/0.41.0/9385872d8a3aa0d6bccd76858356de1102ac53da/ktlint-ruleset-test-0.41.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

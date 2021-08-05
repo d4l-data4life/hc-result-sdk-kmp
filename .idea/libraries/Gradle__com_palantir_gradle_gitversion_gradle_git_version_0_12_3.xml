@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.palantir.gradle.gitversion:gradle-git-version:0.12.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.palantir.gradle.gitversion/gradle-git-version/0.12.3/8518b89e122353bc8db10703ac5a32051d098085/gradle-git-version-0.12.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.palantir.gradle.gitversion/gradle-git-version/0.12.3/1ac0cb6c7f335df9bd7460d59c75aca0653f3dce/gradle-git-version-0.12.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
