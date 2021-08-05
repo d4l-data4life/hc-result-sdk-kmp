@@ -45,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/error/src" />
     <property name="memory.settings.postsync.last.time.stamp" value="1628159784833" />
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
@@ -54,19 +54,22 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/error/src/androidMain/kotlin/care/data4life/sdk/lang" />
+      <recent name="$PROJECT_DIR$/error/src/commonMain/kotlin/care/data4life/sdk/lang" />
       <recent name="$PROJECT_DIR$/flow/src/iosTest/kotlin/care/data4life/sdk/flow" />
       <recent name="$PROJECT_DIR$/flow/src/androidMain/kotlin/care/data4life/sdk/flow" />
       <recent name="$PROJECT_DIR$/flow/src/commonTest/kotlin/care/data4life/sdk/util" />
-      <recent name="$PROJECT_DIR$/flow/src/commonMain/kotlin/care/data4life/sdk/util" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="care.data4life.sdk.flow" />
       <recent name="care.data4life.sdk.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/flow" />
-      <recent name="$PROJECT_DIR$/buildSrc" />
+      <recent name="$PROJECT_DIR$/error/src" />
+      <recent name="$PROJECT_DIR$/error/src/commonMain/kotlin/care/data4life/sdk" />
+      <recent name="$PROJECT_DIR$/error" />
+      <recent name="$PROJECT_DIR$/flow/src/iosMain/kotlin/care/data4life/sdk" />
+      <recent name="$PROJECT_DIR$/flow/src/jvmTest/kotlin/care/data4life/sdk" />
     </key>
   </component>
   <component name="RunManager">
@@ -102,9 +105,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1628159553183" />
-    <state x="385" y="210" key="run.anything.popup" timestamp="1628159345883">
+    <state x="385" y="210" key="run.anything.popup" timestamp="1628160647350">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1628159345883" />
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1628160647350" />
   </component>
 </project>

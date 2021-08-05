@@ -2,6 +2,10 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="11">
+      <module name="hc-result-sdk-kmp.error.commonMain" target="1.8" />
+      <module name="hc-result-sdk-kmp.error.commonTest" target="1.8" />
+      <module name="hc-result-sdk-kmp.error.jvmMain" target="1.8" />
+      <module name="hc-result-sdk-kmp.error.jvmTest" target="1.8" />
       <module name="hc-result-sdk-kmp.flow.commonMain" target="1.8" />
       <module name="hc-result-sdk-kmp.flow.commonTest" target="1.8" />
       <module name="hc-result-sdk-kmp.flow.jvmMain" target="1.8" />

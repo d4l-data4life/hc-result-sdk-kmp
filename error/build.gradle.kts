@@ -45,17 +45,12 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(Dependencies.multiplatform.kotlin.stdlibCommon)
-                implementation(Dependencies.multiplatform.coroutines.common)
-                implementation(Dependencies.multiplatform.coroutines.stately) // TODO: Remove with Kotlin 1.5.x
-                implementation(Dependencies.multiplatform.d4l.sdkUtil)
-                api(project(":error"))
             }
         }
         val commonTest by getting {
             dependencies {
                 implementation(Dependencies.multiplatform.kotlin.testCommon)
                 implementation(Dependencies.multiplatform.kotlin.testCommonAnnotations)
-                implementation(Dependencies.multiplatform.d4l.sdkCoroutineTestUtil)
             }
         }
 
@@ -68,8 +63,6 @@ kotlin {
             dependencies {
                 implementation(Dependencies.multiplatform.kotlin.testJvm)
                 implementation(Dependencies.multiplatform.kotlin.testJvmJunit)
-
-                implementation(Dependencies.android.robolectric)
             }
         }
 
@@ -96,7 +89,6 @@ kotlin {
                 dependencies {
                     implementation(Dependencies.multiplatform.kotlin.testCommon)
                     implementation(Dependencies.multiplatform.kotlin.testCommonAnnotations)
-                    implementation(Dependencies.multiplatform.d4l.sdkUtil)
                 }
             }
         }
