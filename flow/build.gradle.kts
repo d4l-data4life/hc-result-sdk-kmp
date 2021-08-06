@@ -50,7 +50,7 @@ kotlin {
             dependencies {
                 implementation(Dependency.multiplatform.kotlin.testCommon)
                 implementation(Dependency.multiplatform.kotlin.testCommonAnnotations)
-                implementation(Dependency.multiplatform.d4l.sdkCoroutineTestUtil)
+                implementation(Dependency.multiplatform.d4l.sdkTestUtilCoroutine)
             }
         }
 
@@ -91,7 +91,7 @@ kotlin {
                 dependencies {
                     implementation(Dependency.multiplatform.kotlin.testCommon)
                     implementation(Dependency.multiplatform.kotlin.testCommonAnnotations)
-                    implementation(Dependency.multiplatform.d4l.sdkUtil)
+                    implementation(Dependency.multiplatform.d4l.sdkObjcUtil)
                 }
             }
         }

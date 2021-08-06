@@ -64,9 +64,9 @@ object Dependency {
         val d4l = D4L
 
         object D4L {
-            const val sdkUtil = "care.data4life.hc-util-sdk-kmp:util:${Versions.sdkUtil}"
-            const val sdkObjcUtil = "care.data4life.hc-objc-util-sdk-kmp:util:${Versions.sdkObjcUtil}"
-            const val sdkTestUtilCoroutine = "care.data4life.hc-test-util-coroutine-sdk-kmp:test-util-coroutine:${Versions.sdkTestUtilCoroutine}"
+            const val sdkUtil = "care.data4life.hc-util-sdk-kmp:util:${Version.sdkUtil}"
+            const val sdkObjcUtil = "care.data4life.hc-objc-util-sdk-kmp:objc-util:${Version.sdkObjcUtil}"
+            const val sdkTestUtilCoroutine = "care.data4life.hc-test-util-sdk-kmp:test-util-coroutine:${Version.sdkTestUtilCoroutine}"
         }
     }
 

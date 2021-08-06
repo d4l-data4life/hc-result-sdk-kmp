@@ -17,7 +17,7 @@
 package care.data4life.sdk.flow
 
 import care.data4life.sdk.lang.PlatformError
-import care.data4life.sdk.util.NSErrorFactory
+import care.data4life.sdk.util.objc.NSErrorFactory
 import care.data4life.sdk.util.test.coroutine.runBlockingTest
 import co.touchlab.stately.isFrozen
 import kotlinx.coroutines.CoroutineScope

@@ -41,10 +41,10 @@ object Version {
     const val sdkUtil = "1.10.0"
 
     // https://github.com/d4l-data4life/hc-objc-util-sdk-kmp
-    const val sdkObjcUtil = "0.1.0"
+    const val sdkObjcUtil = "d338ad2"
 
     // https://github.com/d4l-data4life/hc-test-util-sdk-kmp
-    const val sdkTestUtilCoroutine = "0.1.0"
+    const val sdkTestUtilCoroutine = "2f41327"
 
     // Android
     // https://developer.android.com/studio/write/java8-support
