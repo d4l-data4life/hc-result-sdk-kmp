@@ -41,6 +41,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 implementation(Dependency.multiplatform.kotlin.stdlibCommon)
+                implementation(Dependencies.multiplatform.d4l.sdkUtil)
             }
         }
         val commonTest by getting {

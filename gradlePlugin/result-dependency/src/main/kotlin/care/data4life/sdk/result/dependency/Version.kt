@@ -38,7 +38,13 @@ object Version {
 
     // D4L
     // https://github.com/d4l-data4life/hc-util-sdk-kmp
-    const val sdkUtil = "1.9.0-add-default-scope-SNAPSHOT"
+    const val sdkUtil = "1.10.0"
+
+    // https://github.com/d4l-data4life/hc-objc-util-sdk-kmp
+    const val sdkObjcUtil = "0.1.0"
+
+    // https://github.com/d4l-data4life/hc-test-util-sdk-kmp
+    const val sdkTestUtilCoroutine = "0.1.0"
 
     // Android
     // https://developer.android.com/studio/write/java8-support
