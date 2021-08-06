@@ -1,1 +1,0 @@
-# hc-result-sdk-kmp
