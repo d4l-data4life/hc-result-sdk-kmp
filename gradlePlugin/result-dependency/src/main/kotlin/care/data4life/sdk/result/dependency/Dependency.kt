@@ -16,11 +16,9 @@
 package care.data4life.sdk.result.dependency
 
 object Dependency {
-
     val kotlin = Kotlin
     object Kotlin {
         const val stdLib = multiplatform.kotlin.stdlibJdk
-        const val reflect = "org.jetbrains.kotlin:kotlin-reflect:${Version.kotlin}"
     }
 
     val multiplatform = Multiplatform
@@ -52,13 +50,6 @@ object Dependency {
             const val test = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Version.kotlinCoroutines}"
 
             const val stately = "co.touchlab:stately-common:${Version.stately}"
-        }
-
-        val ktor = Ktor
-
-        object Ktor {
-            const val common = "io.ktor:ktor-client-core:${Version.ktor}"
-            const val mock = "io.ktor:ktor-client-mock:${Version.ktor}"
         }
 
         val d4l = D4L
@@ -111,7 +102,6 @@ object Dependency {
             "androidx.test.espresso:espresso-intents:${Version.androidXEspresso}"
         const val espressoWeb = "androidx.test.espresso:espresso-web:${Version.androidXEspresso}"
 
-        const val uiAutomator =
-            "androidx.test.uiautomator:uiautomator:${Version.androidXUiAutomator}"
+        const val uiAutomator = "androidx.test.uiautomator:uiautomator:${Version.androidXUiAutomator}"
     }
 }

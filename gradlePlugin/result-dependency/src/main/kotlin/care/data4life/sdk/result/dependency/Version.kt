@@ -32,19 +32,15 @@ object Version {
     // https://github.com/touchlab/Stately
     const val stately = "1.1.6"
 
-    // Network
-    // https://ktor.io/
-    const val ktor = "1.5.4"
-
     // D4L
     // https://github.com/d4l-data4life/hc-util-sdk-kmp
     const val sdkUtil = "1.10.0"
 
     // https://github.com/d4l-data4life/hc-objc-util-sdk-kmp
-    const val sdkObjcUtil = "d338ad2"
+    const val sdkObjcUtil = "0.1.0"
 
     // https://github.com/d4l-data4life/hc-test-util-sdk-kmp
-    const val sdkTestUtilCoroutine = "2f41327"
+    const val sdkTestUtilCoroutine = "0.1.0"
 
     // Android
     // https://developer.android.com/studio/write/java8-support
