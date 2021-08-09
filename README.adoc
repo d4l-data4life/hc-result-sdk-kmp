@@ -1,5 +1,5 @@
-= Data4Life Result Util SDK
-:result-util-sdk-version: 0.1.0
+= Data4Life Result SDK
+:result-sdk-version: 0.1.0
 :doctype: article
 :!showtitle:
 :toc: macro

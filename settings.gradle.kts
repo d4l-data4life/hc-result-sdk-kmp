@@ -18,6 +18,8 @@ pluginManagement {
         gradlePluginPortal()
         google()
     }
+
+    includeBuild("gradlePlugin/result-dependency")
 }
 
 plugins {

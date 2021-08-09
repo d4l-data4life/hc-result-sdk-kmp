@@ -1,5 +1,6 @@
 # Gradle
 .gradle/
+.gradle/*
 build/
 out/
 local.properties
@@ -16,7 +17,6 @@ local.properties
 !.idea/codeStyles/
 !.idea/encoding.xml
 !.idea/copyright/
-!.idea/compiler.xml
 
 # generated
 
