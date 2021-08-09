@@ -22,6 +22,7 @@ import care.data4life.sdk.config.DataRestriction.DATA_SIZE_MAX_MB
  * Exception class that will be thrown in case of data restriction violations like file size is too large or
  * file type is unsupported.
  */
+@Deprecated(message = "This Error will move with the next release to the top level SDKs, since it is a DomainError.")
 sealed class DataRestrictionException(message: String? = null, cause: Throwable? = null) :
     D4LException(message, cause) {
 
