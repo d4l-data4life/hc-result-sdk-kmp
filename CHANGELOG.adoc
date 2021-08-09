@@ -1,5 +1,6 @@
 = Changelog
 :toc: macro
+:link-repository: https://github.com/d4l-data4life/hc-result-sdk-kmp
 :toclevels: 1
 :toc-title:
 
@@ -12,9 +13,36 @@ and this project adheres to http://semver.org/spec/v2.0.0.html[Semantic Versioni
 ==== Versions
 toc::[]
 
-== https://github.com/d4l-data4life/hc-result-sdk-kmp/compare/0.1.0...main[Unreleased]
+
+== link:{link-repository}/releases/latest[Unreleased]
+See link:{link-repository}/compare/v0.1.0...main[changeset]
 
 === Added
+
+=== Changed
+
+=== Deprecated
+
+=== Removed
+
+=== Fixed
+
+=== Security
+
+=== Bumped
+
+=== Migration
+
+
+== link:{link-repository}/releases/tag/v0.1.0[0.1.0]
+
+=== Added
+
+Initial release.
+
+* `D4LSDKFlow` wrapper for all platforms
+* `D4LRuntimeException` as base runtime error for kmp sdks
+* `D4LException` as base error for kmp sdks
 
 === Changed
 
@@ -25,7 +53,3 @@ toc::[]
 === Bumped
 
 === Migration
-
-== https://github.com/d4l-data4life/hc-result-sdk-kmp/compare/v0.1.0[0.1.0]
-
-Initial release taken to be open sourced.
