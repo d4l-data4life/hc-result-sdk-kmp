@@ -22,6 +22,8 @@ toc::[]
 
 === Fixed
 
+* freeze items and errors for the Flow, to resolves iOS crashes.
+
 === Bumped
 
 === Migration
