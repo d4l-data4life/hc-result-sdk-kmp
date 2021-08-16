@@ -25,6 +25,7 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
+import org.junit.Ignore
 import java.util.concurrent.Executors
 import kotlin.coroutines.CoroutineContext
 import kotlin.test.Test
@@ -181,7 +182,10 @@ class D4LSDKFlowTest {
         val ktFlow = flow<Unit> {}
 
         // When
-        val job = D4LSDKFlow.getInstance(scope, ktFlow, { it }).subscribe(
+        val job = D4LSDKFlow.getInstance(
+            scope, ktFlow,
+            { it }
+        ).subscribe(
             {},
             {},
             {}
