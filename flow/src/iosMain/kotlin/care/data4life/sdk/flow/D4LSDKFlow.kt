@@ -29,8 +29,8 @@ actual class D4LSDKFlow<T : Any> private actual constructor(
         onComplete: (() -> Unit)
     ): Job {
         return flow
-            .onEach { item -> onEach(item) }
-            .catch { error -> onError(errorMapper.mapError(error)) }
+            .onEach { item -> onEach(item.freeze()) }
+            .catch { error -> onError(errorMapper.mapError(error.freeze())) }
             .onCompletion { onComplete.invoke() }
             .launchIn(scope)
             .freeze()

@@ -104,10 +104,13 @@ class D4LSDKFlowTest {
         runBlockingTest {
             job.join()
 
+            val result = capturedItem.receive()
+
             assertSame(
-                actual = capturedItem.receive(),
+                actual = result,
                 expected = item
             )
+            assertTrue(result.isFrozen)
         }
     }
 
@@ -147,15 +150,18 @@ class D4LSDKFlowTest {
         runBlockingTest {
             job.join()
 
+            val result = capturedError.receive()
+
             assertSame<Any>(
                 actual = capturedDomainError.receive(),
                 expected = domainError
             )
 
             assertSame<Any>(
-                actual = capturedError.receive(),
+                actual = result,
                 expected = error
             )
+            assertTrue(result.isFrozen)
         }
     }
 
