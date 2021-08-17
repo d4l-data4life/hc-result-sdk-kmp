@@ -13,7 +13,6 @@ and this project adheres to http://semver.org/spec/v2.0.0.html[Semantic Versioni
 ==== Versions
 toc::[]
 
-
 == link:{link-repository}/releases/latest[Unreleased]
 See link:{link-repository}/compare/v0.1.1...main[changeset]
 
@@ -33,7 +32,8 @@ See link:{link-repository}/compare/v0.1.1...main[changeset]
 
 === Migration
 
-== == link:{link-repository}/releases/tag/v0.1.1[0.1.1]
+
+== link:{link-repository}/releases/tag/v0.1.1[0.1.1]
 
 === Fixed
 
