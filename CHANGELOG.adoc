@@ -27,6 +27,8 @@ See link:{link-repository}/compare/v0.1.0...main[changeset]
 
 === Fixed
 
+* freeze items and errors for the Flow, to resolves iOS crashes.
+
 === Security
 
 === Bumped

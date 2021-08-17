@@ -181,7 +181,10 @@ class D4LSDKFlowTest {
         val ktFlow = flow<Unit> {}
 
         // When
-        val job = D4LSDKFlow.getInstance(scope, ktFlow, { it }).subscribe(
+        val job = D4LSDKFlow.getInstance(
+            scope, ktFlow,
+            { it }
+        ).subscribe(
             {},
             {},
             {}
