@@ -15,7 +15,7 @@ toc::[]
 
 
 == link:{link-repository}/releases/latest[Unreleased]
-See link:{link-repository}/compare/v0.1.0...main[changeset]
+See link:{link-repository}/compare/v0.1.1...main[changeset]
 
 === Added
 
@@ -27,14 +27,17 @@ See link:{link-repository}/compare/v0.1.0...main[changeset]
 
 === Fixed
 
-* freeze items and errors for the Flow, to resolves iOS crashes.
-
 === Security
 
 === Bumped
 
 === Migration
 
+== == link:{link-repository}/releases/tag/v0.1.1[0.1.1]
+
+=== Fixed
+
+* freeze items and errors for the Flow, to resolves iOS crashes.
 
 == link:{link-repository}/releases/tag/v0.1.0[0.1.0]
 
