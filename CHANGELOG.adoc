@@ -23,7 +23,7 @@ See link:{link-repository}/compare/v0.1.1...main[changeset]
 === Deprecated
 
 === Removed
-* DataRestrictionException.
+* _**BREAKING**_ DataRestrictionException.
 * link:https://github.com/d4l-data4life/hc-util-sdk-kmp/[Data4Life Util-SDK] (Dependency).
 
 === Fixed
