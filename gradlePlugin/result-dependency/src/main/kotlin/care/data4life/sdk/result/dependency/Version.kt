@@ -33,9 +33,6 @@ object Version {
     const val stately = "1.1.6"
 
     // D4L
-    // https://github.com/d4l-data4life/hc-util-sdk-kmp
-    const val sdkUtil = "1.10.0"
-
     // https://github.com/d4l-data4life/hc-objc-util-sdk-kmp
     const val sdkObjcUtil = "0.1.0"
 
