@@ -14,7 +14,7 @@ and this project adheres to http://semver.org/spec/v2.0.0.html[Semantic Versioni
 toc::[]
 
 == link:{link-repository}/releases/latest[Unreleased]
-See link:{link-repository}/compare/v0.1.1...main[changeset]
+See link:{link-repository}/compare/v0.2.0...main[changeset]
 
 === Added
 
@@ -23,8 +23,6 @@ See link:{link-repository}/compare/v0.1.1...main[changeset]
 === Deprecated
 
 === Removed
-* _**BREAKING**_ DataRestrictionException.
-* link:https://github.com/d4l-data4life/hc-util-sdk-kmp/[Data4Life Util-SDK] (Dependency).
 
 === Fixed
 
@@ -34,6 +32,13 @@ See link:{link-repository}/compare/v0.1.1...main[changeset]
 
 === Migration
 
+
+== link:{link-repository}/releases/tag/v0.2.0[0.2.0]
+
+=== Removed
+
+* _**BREAKING**_ DataRestrictionException.
+* link:https://github.com/d4l-data4life/hc-util-sdk-kmp/[Data4Life Util-SDK] (Dependency).
 
 == link:{link-repository}/releases/tag/v0.1.1[0.1.1]
 
