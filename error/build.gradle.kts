@@ -13,8 +13,8 @@
  * applications and/or if you’d like to contribute to the development of the SDK, please
  * contact D4L by email to help@data4life.care.
  */
-import care.data4life.sdk.result.LibraryConfig
-import care.data4life.sdk.result.dependency.Dependency
+import care.data4life.gradle.result.dependency.Dependency
+import care.data4life.gradle.result.config.LibraryConfig
 
 plugins {
     id("org.jetbrains.kotlin.multiplatform")
@@ -23,7 +23,7 @@ plugins {
     id("com.android.library")
 
     // Publish
-    id("care.data4life.sdk.result.publishing-config")
+    id("care.data4life.gradle.result.script.publishing-config")
 }
 
 group = LibraryConfig.group
@@ -40,51 +40,51 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.stdlibCommon)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibCommon)
             }
         }
         val commonTest by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.testCommon)
-                implementation(Dependency.multiplatform.kotlin.testCommonAnnotations)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommon)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommonAnnotations)
             }
         }
 
         val androidMain by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.stdlibAndroid)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibAndroid)
             }
         }
         val androidTest by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.testJvm)
-                implementation(Dependency.multiplatform.kotlin.testJvmJunit)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvm)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvmJunit)
             }
         }
 
         val jvmMain by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.stdlibJdk8)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibJdk8)
             }
         }
         val jvmTest by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.testJvm)
-                implementation(Dependency.multiplatform.kotlin.testJvmJunit)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvm)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvmJunit)
             }
         }
 
         val iosMain by getting {
             dependencies {
-                implementation(Dependency.multiplatform.kotlin.stdlibNative)
+                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibNative)
             }
         }
 
         val iosTest by getting {
             dependencies {
                 dependencies {
-                    implementation(Dependency.multiplatform.kotlin.testCommon)
-                    implementation(Dependency.multiplatform.kotlin.testCommonAnnotations)
+                    implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommon)
+                    implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommonAnnotations)
                 }
             }
         }
