@@ -19,8 +19,8 @@ package care.data4life.sdk.flow
 import care.data4life.sdk.lang.PlatformError
 import care.data4life.sdk.util.objc.NSErrorFactory
 import care.data4life.sdk.util.test.coroutine.runBlockingTest
-import co.touchlab.stately.isFrozen
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
@@ -30,11 +30,13 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.newSingleThreadContext
 import kotlin.coroutines.CoroutineContext
+import kotlin.native.concurrent.isFrozen
 import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertSame
 import kotlin.test.assertTrue
 
+@DelicateCoroutinesApi
 class D4LSDKFlowTest {
     @Test
     fun `It exposes its wrapped Flow`() {

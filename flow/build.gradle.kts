@@ -42,7 +42,6 @@ kotlin {
             dependencies {
                 implementation(Dependency.multiplatform.kotlin.stdlibCommon)
                 implementation(Dependency.multiplatform.coroutines.common)
-                implementation(Dependency.multiplatform.coroutines.stately) // TODO: Remove with Kotlin 1.5.x
                 api(project(":error"))
             }
         }
