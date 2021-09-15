@@ -40,51 +40,51 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibCommon)
+                implementation(Dependency.multiplatform.kotlin.stdlibCommon)
             }
         }
         val commonTest by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommon)
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommonAnnotations)
+                implementation(Dependency.multiplatform.kotlin.testCommon)
+                implementation(Dependency.multiplatform.kotlin.testCommonAnnotations)
             }
         }
 
         val androidMain by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibAndroid)
+                implementation(Dependency.multiplatform.kotlin.stdlibAndroid)
             }
         }
         val androidTest by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvm)
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvmJunit)
+                implementation(Dependency.multiplatform.kotlin.testJvm)
+                implementation(Dependency.multiplatform.kotlin.testJvmJunit)
             }
         }
 
         val jvmMain by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibJdk8)
+                implementation(Dependency.multiplatform.kotlin.stdlibJdk8)
             }
         }
         val jvmTest by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvm)
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testJvmJunit)
+                implementation(Dependency.multiplatform.kotlin.testJvm)
+                implementation(Dependency.multiplatform.kotlin.testJvmJunit)
             }
         }
 
         val iosMain by getting {
             dependencies {
-                implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.stdlibNative)
+                implementation(Dependency.multiplatform.kotlin.stdlibNative)
             }
         }
 
         val iosTest by getting {
             dependencies {
                 dependencies {
-                    implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommon)
-                    implementation(care.data4life.gradle.result.dependency.Dependency.multiplatform.kotlin.testCommonAnnotations)
+                    implementation(Dependency.multiplatform.kotlin.testCommon)
+                    implementation(Dependency.multiplatform.kotlin.testCommonAnnotations)
                 }
             }
         }
