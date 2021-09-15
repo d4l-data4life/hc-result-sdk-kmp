@@ -2,10 +2,10 @@ package care.data4life.sdk.flow
 
 import care.data4life.sdk.lang.PlatformError
 import care.data4life.sdk.util.coroutine.DomainErrorMapperContract
-import co.touchlab.stately.freeze
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*
+import kotlin.native.concurrent.freeze
 
 actual class D4LSDKFlow<T : Any> private actual constructor(
     defaultScope: CoroutineScope,
