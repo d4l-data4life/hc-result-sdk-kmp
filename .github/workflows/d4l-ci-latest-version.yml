@@ -25,9 +25,9 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-java@v2
-          with:
-            distribution: 'adopt' # See 'Supported distributions' for available options
-            java-version: '11'
+        with:
+          distribution: 'adopt' # See 'Supported distributions' for available options
+          java-version: '11'
       - name: Cleanup
         run: ./gradlew clean
       - name: Version
