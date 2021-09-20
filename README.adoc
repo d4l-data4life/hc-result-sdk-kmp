@@ -1,4 +1,6 @@
 = Data4Life Result SDK
+:imagesdir: assets/images
+:link-repository: https://github.com/d4l-data4life/hc-result-sdk-kmp
 :result-sdk-version: 0.2.0
 :doctype: article
 :!showtitle:
@@ -7,7 +9,6 @@
 :toc-title:
 :icons: font
 :imagesdir: assets/images
-:link-repository: https://github.com/d4l-data4life/hc-result-sdk-kmp
 ifdef::env-github[]
 :warning-caption: :warning:
 :caution-caption: :fire:
@@ -19,7 +20,9 @@ endif::[]
 ++++
 <div align="center">
     <p>
-        <a><img src="assets/images/d4l-logo.svg" width="150"/></a>
+        <a href="https://github.com/d4l-data4life/hc-result-sdk-kmp">
+            <img src="assets/images/d4l-logo.svg" width="150"/>
+        </a>
     </p>
     <h1>Data4Life Result SDK</h1>
     <p>
@@ -35,10 +38,10 @@ endif::[]
     </p>
     <p><!-- PROJECT BADGES see badges.adoc how to change them -->
         <a href="https://github.com/d4l-data4life/hc-result-sdk-kmp/releases">
-            <img src="assets/images/badge-release-latest.svg" alt="Latest version"/>
+            <img src="assets/images/badge-release-latest.svg" alt="Latest release"/>
         </a>
         <a href="https://github.com/d4l-data4life/hc-result-sdk-kmp/actions">
-            <img src="https://github.com/d4l-data4life/hc-result-sdk-kmp/actions/workflows/d4l-ci-latest-version.yml/badge.svg" alt="Build Status"/>
+            <img src="https://github.com/d4l-data4life/hc-result-sdk-kmp/actions/workflows/d4l-ci-latest-version.yml/badge.svg" alt="D4L CI - Latest Version"/>
         </a>
         <a>
             <img src="assets/images/badge-platform-support.svg" alt="Platform"/>

@@ -13,34 +13,36 @@
  * applications and/or if you’d like to contribute to the development of the SDK, please
  * contact D4L by email to help@data4life.care.
  */
+import care.data4life.gradle.result.dependency.d4l
 
 plugins {
     `kotlin-dsl`
 
-    id("care.data4life.sdk.result.dependency")
+    id("care.data4life.gradle.result.dependency")
 }
 
 repositories {
     gradlePluginPortal()
     mavenCentral()
     google()
+    d4l()
 }
 
 dependencies {
-    implementation(care.data4life.sdk.result.dependency.GradlePlugin.kotlin)
-    implementation(care.data4life.sdk.result.dependency.GradlePlugin.android)
+    implementation(care.data4life.gradle.result.dependency.GradlePlugin.kotlin)
+    implementation(care.data4life.gradle.result.dependency.GradlePlugin.android)
 
-    // dependency-updates
+    // dependency-updates.gradle.kts
     implementation("com.github.ben-manes:gradle-versions-plugin:0.38.0")
-    // download-scripts
+    // download-scripts.gradle.kts
     implementation("de.undercouch:gradle-download-task:4.1.1")
-    // publishing
+    // publishing.gradle.kts
     implementation("org.eclipse.jgit:org.eclipse.jgit:5.11.0.202103091610-r")
-    // quality
+    // quality-spotless.gradle.kts
     implementation("com.diffplug.spotless:spotless-plugin-gradle:5.10.2")
     implementation("com.pinterest:ktlint:0.41.0")
-    // versioning
-    implementation("com.palantir.gradle.gitversion:gradle-git-version:0.12.3")
+    // versioning.gradle.kts
+    implementation("care.data4life.gradle.gitversion:gradle-git-version:0.12.4-d4l")
 }
 
 kotlinDslPluginOptions {

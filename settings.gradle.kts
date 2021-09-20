@@ -26,8 +26,6 @@ plugins {
     id("com.gradle.enterprise") version("3.4.1")
 }
 
-rootProject.name = "hc-result-sdk-kmp"
-
 include(
     ":error",
     ":flow"
@@ -40,3 +38,5 @@ buildCache {
         removeUnusedEntriesAfterDays = 30
     }
 }
+
+rootProject.name = "hc-result-sdk-kmp"
