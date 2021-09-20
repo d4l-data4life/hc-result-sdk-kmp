@@ -37,12 +37,12 @@ object Version {
     /**
      * https://github.com/d4l-data4life/hc-objc-util-sdk-kmp
      */
-    const val sdkObjcUtil = "0.1.0-bump-kotlin-SNAPSHOT"
+    const val sdkObjcUtil = "0.2.0"
 
     /**
      * https://github.com/d4l-data4life/hc-test-util-sdk-kmp
      */
-    const val sdkTestUtilCoroutine = "0.2.0-bump-updates-SNAPSHOT"
+    const val sdkTestUtilCoroutine = "0.3.0"
 
     // Android
     /**
