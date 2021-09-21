@@ -18,6 +18,7 @@ package care.data4life.sdk.flow
 
 import care.data4life.sdk.util.test.coroutine.runBlockingTest
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.asCoroutineDispatcher
@@ -32,6 +33,7 @@ import kotlin.test.assertFalse
 import kotlin.test.assertSame
 import kotlin.test.assertTrue
 
+@DelicateCoroutinesApi
 class D4LSDKFlowTest {
     @Test
     fun `It exposes its wrapped Flow`() {

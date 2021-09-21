@@ -17,11 +17,13 @@
 package care.data4life.sdk.flow
 
 import care.data4life.sdk.lang.PlatformError
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.flow.flow
 import kotlin.test.Test
 import kotlin.test.assertTrue
 
+@DelicateCoroutinesApi
 class D4LSDKFlowFactoryTest {
     @Test
     fun `It fulfils D4LSDKFlowFactory`() {

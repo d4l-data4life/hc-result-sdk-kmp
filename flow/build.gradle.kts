@@ -42,7 +42,6 @@ kotlin {
             dependencies {
                 implementation(Dependency.multiplatform.kotlin.stdlibCommon)
                 implementation(Dependency.multiplatform.coroutines.common)
-                implementation(Dependency.multiplatform.coroutines.stately) // TODO: Remove with Kotlin 1.5.x
                 api(project(":error"))
             }
         }
@@ -99,20 +98,15 @@ kotlin {
 }
 
 android {
-    compileSdkVersion(LibraryConfig.android.compileSdkVersion)
+    compileSdk = LibraryConfig.android.compileSdkVersion
 
     defaultConfig {
-        minSdkVersion(LibraryConfig.android.minSdkVersion)
-        targetSdkVersion(LibraryConfig.android.targetSdkVersion)
-
-        versionCode = 1
-        versionName = "${project.version}"
+        minSdk = LibraryConfig.android.minSdkVersion
+        targetSdk = LibraryConfig.android.targetSdkVersion
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        testInstrumentationRunnerArguments(
-            mapOf(
-                "clearPackageData" to "true"
-            )
+        testInstrumentationRunnerArguments.putAll(
+            mapOf("clearPackageData" to "true")
         )
     }
 
