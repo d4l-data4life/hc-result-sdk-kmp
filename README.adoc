@@ -1,7 +1,7 @@
 = Data4Life Result SDK
 :imagesdir: assets/images
 :link-repository: https://github.com/d4l-data4life/hc-result-sdk-kmp
-:result-sdk-version: 0.2.0
+:result-sdk-version: 0.3.0
 :doctype: article
 :!showtitle:
 :toc: macro
